@@ -1,0 +1,29 @@
+{
+  "name": "GLB Gen v1.0",
+  "version": "1.0.0",
+  "description": "GLB Generator on Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "G.T",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.10.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.1",
+    "gl": "^6.0.1",
+    "jsdom": "^20.0.3",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2",
+    "three": "^0.146.0",
+    "url": "^0.11.0",
+    "vblob": "^1.0.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
